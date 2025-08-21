@@ -3,7 +3,7 @@ This page is a quick reference for HTML named colors and how they handle light o
 
 ## How it works
 The text in each color field is the name of its background color. Each combination passes Chrome dev tools' color contrast check. The default "white" for this project is `azure` and default "black" is `midnightblue`. 
-In dev tools if you hover over a particular color container, the ratio will be visible in the accessibility part of the tool tip, as well as the color hex code.
+Once `index.html` is open in the browser, open dev tools. Using the mouse to hover over a particular color container will show the color ratio  in the accessibility part of the tool tip, as well as the color hex code.
 
 ## Reasoning
 This is a great tool if you're styling a webpage in five minutes and don't want to use midnightblue and lemonchiffon every single time like I do. This is especially helpful for button styling, where you often end up with three versions for one button because of `:hover` and `:active` versions.
